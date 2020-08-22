@@ -10,7 +10,10 @@ local applicationHotkeys = {
 	i = "iTerm",
 	g = "GoLand",
 	e = "Sublime Text",
-	s = "Slack"
+	s = "Slack",
+	o = "Microsoft Outlook",
+	p = "1Password 6",
+	z = "zoom.us"
 }
 
 for key, app in pairs(applicationHotkeys) do
