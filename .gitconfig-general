@@ -1,0 +1,9 @@
+[alias]
+    lg = log --graph --pretty=format:'%C(auto)%h -%d %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate
+    down = !git pull --rebase --prune $@ && git submodule update --init --recursive
+    cm = !git add -A && git commit -m
+    ca = !git add -A && git commit --amend
+    s = status
+    d = diff
+    b = branch
+    ch = checkout
